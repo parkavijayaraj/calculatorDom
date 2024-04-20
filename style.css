@@ -1,0 +1,58 @@
+.cord{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 25px;
+    margin: 20%;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+    max-height: 50%;
+    max-width: 50%;
+    min-width: 0.5rem;
+    min-height: 0.5rem;
+   
+}
+
+
+@media screen and (max-width: 600px) {
+    .cord{
+        width: 90%;
+        padding: 10px;
+    }
+    p{
+        font-size: 50%;
+        padding:5px;
+    }
+    .cord{
+        height: 20%;
+    }
+}
+
+#result{
+    background-color: gray;
+}
+
+p{
+   
+    color: black;
+    text-align: center;
+    
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.grid1{
+    grid-column-start: 1;
+    grid-column-end:5;
+    text-align: start;
+}
+.grid2{
+    grid-column-start: 3;
+    grid-column-end:5;
+    text-align: center;
+    background-color: blue;
+}
+.clur{
+    color: blue;
+}
